@@ -49,7 +49,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
 try {
 ppuser = await Rifky.profilePictureUrl(m.sender, 'image')
 } catch (err) {
-ppuser = 'https://files.catbox.moe/s0bwo3.jpg'
+ppuser = 'https://files.catbox.moe/qrgefu.jpg'
 }
 ppnyauser = await getBuffer(ppuser)
 try {
