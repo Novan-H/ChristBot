@@ -49,7 +49,7 @@ console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(n
 try {
 ppuser = await Rifky.profilePictureUrl(m.sender, 'image')
 } catch (err) {
-ppuser = 'https://files.catbox.moe/cq19x3.jpg'
+ppuser = 'https://files.catbox.moe/s0bwo3.jpg'
 }
 ppnyauser = await getBuffer(ppuser)
 try {
@@ -101,7 +101,7 @@ message: {
 newsletterAdminInviteMessage: {
 newsletterJid: '120363327414439215@newsletter',
     newsletterName: 'AI',
-    caption: `${namabot} | Christy`
+    caption: `${namabot} | ChristBot`
 }}}
 const reply = (teks) => { 
 Rifky.sendMessage(from, { text: teks, contextInfo:{
